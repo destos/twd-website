@@ -1,12 +1,17 @@
 {
-  "name": "tulsa-web-dev",
+  "name": "tulsa-web-devs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "repository": "git@github.com:tulsawebdevs/twd-website.git",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "dev": "gulp default"
   },
-  "author": "",
+  "bin": {
+    "gulp": "node_modules/gulp/bin/gulp"
+  },
+  "author": "the Tulsa Web Dev community",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.0",
