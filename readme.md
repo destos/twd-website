@@ -1,10 +1,19 @@
 # Tulsa Web Devs Website
 
 ## How to install
-1. Git pull repo
-2. cd into repo directory
-3. ./script/install
-4. ./script/dev
+1. Make sure you have NodeJS installed
+2. Pull repository
+
+    `$ git clone git@github.com:tulsawebdevs/twd-website.git`
+3. Change into repo directory
+
+    `$ cd twd-website`
+4. Run install scripts to get build dependencies
+
+    `$ ./script/install`
+5. Run development command to start auto-build and test web server
+
+    `$ ./script/dev`
 
 ##### Web server will be started and running on port 8080. Default browser should automatically open to the page to be edited.
 
