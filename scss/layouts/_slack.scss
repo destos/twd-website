@@ -1,18 +1,18 @@
 .slack {
-	background-color: $highlight;
-	
-	color: $primary2;
-	position: relative;
+  background-color: $highlight;
+
+  color: $primary2;
+  position: relative;
 }
 .slack-info {
-	span {
-		font-size: 25px;
-		position: relative;
-		padding: 0 5px;
-	}
+  span {
+    font-size: 25px;
+    position: relative;
+    padding: 0 5px;
+  }
 }
 .slack-button {
-	button {
-		@include color(#eeeeee,$primary2)
-	}
+  button {
+    @include color(#eeeeee,$primary2)
+  }
 }

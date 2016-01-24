@@ -1,73 +1,73 @@
 .#{$container}, .#{$container-simple} {
-	max-width: 1400px;
-	margin: 0 auto;
-	@include flex;
-	@include flex-wrap(wrap);
-	@include justify-content(space-around);
+  max-width: 1400px;
+  margin: 0 auto;
+  @include flex;
+  @include flex-wrap(wrap);
+  @include justify-content(space-around);
 }
 @for $i from  1 through 12 {
-	.#{$row}-sm-#{$i} {
-		@include row($i);
-	}
+  .#{$row}-sm-#{$i} {
+    @include row($i);
+  }
 }
 @media (min-width: 751px) {
-	@for $i from  1 through 12 {
-		.#{$row}-md-#{$i} {
-			@include row($i);
-		}
-	}
+  @for $i from  1 through 12 {
+    .#{$row}-md-#{$i} {
+      @include row($i);
+    }
+  }
 }
 @media (min-width: 971px) {
-	@for $i from  1 through 12 {
-		.#{$row}-lg-#{$i} {
-			@include row($i);
-		}
-	}
+  @for $i from  1 through 12 {
+    .#{$row}-lg-#{$i} {
+      @include row($i);
+    }
+  }
 }
 @media (min-width: 1171px) {
-	@for $i from  1 through 12 {
-		.#{$row}-xl-#{$i} {
-			@include row($i);
-		}
-	}
+  @for $i from  1 through 12 {
+    .#{$row}-xl-#{$i} {
+      @include row($i);
+    }
+  }
 }
 @media (max-width: 400px) and (min-width: 400px) {
-	@for $i from  1 through 12 {
-		.#{$row}-xs-#{$i} {
-			@include row($i);
-		}
-	}
+  @for $i from  1 through 12 {
+    .#{$row}-xs-#{$i} {
+      @include row($i);
+    }
+  }
 }
 @for $i from  0 through 12 {
-	.#{$row}-sm-os-#{$i} {
-		@include os($i);
-	}
+  .#{$row}-sm-os-#{$i} {
+    @include os($i);
+  }
 }
 @media (min-width: 751px) {
-	@for $i from  0 through 12 {
-		.#{$row}-md-os-#{$i} {
-			@include os($i);
-		}
-	}
+  @for $i from  0 through 12 {
+    .#{$row}-md-os-#{$i} {
+      @include os($i);
+    }
+  }
 }
 @media (min-width: 971px) {
-	@for $i from  0 through 12 {
-		.#{$row}-lg-os-#{$i} {
-			@include os($i);
-		}
-	}
+  @for $i from  0 through 12 {
+    .#{$row}-lg-os-#{$i} {
+      @include os($i);
+    }
+  }
 }
 @media (min-width: 1171px) {
-	@for $i from  0 through 12 {
-		.#{$row}-xl-os-#{$i} {
-			@include os($i);
-		}
-	}
+  @for $i from  0 through 12 {
+    .#{$row}-xl-os-#{$i} {
+      @include os($i);
+    }
+  }
 }
 @media (max-width: 400px) and (min-width: 400px) {
-	@for $i from  0 through 12 {
-		.#{$row}-xs-os-#{$i} {
-			@include os($i);
-		}
-	}
+  @for $i from  0 through 12 {
+    .#{$row}-xs-os-#{$i} {
+      @include os($i);
+    }
+  }
 }

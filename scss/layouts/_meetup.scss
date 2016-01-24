@@ -1,12 +1,12 @@
 .meetup {
-	background-color: desaturate( $secondary, 20%);
-	.meetup-card {
-		background-color: #ffffff;
-		color: $primary;
-		font-size: 18px;
-		padding: 20px;
-		border-radius: 2px;
-		margin: 10px 0;
-		box-shadow: rgba(51,51,51,0.51) 0px 2px 2px;
-	}
+  background-color: desaturate( $secondary, 20%);
+  .meetup-card {
+    background-color: #ffffff;
+    color: $primary;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 2px;
+    margin: 10px 0;
+    box-shadow: rgba(51,51,51,0.51) 0px 2px 2px;
+  }
 }
