@@ -1,72 +1,77 @@
-.#{$container}, .#{$container-simple} {
+.#{$container} {
   max-width: 1400px;
   margin: 0 auto;
   @include flex;
   @include flex-wrap(wrap);
   @include justify-content(space-around);
 }
+.#{$row} {
+  @include flex;
+  @include flex-wrap(wrap);
+  @include justify-content(space-around);
+}
 @for $i from  1 through 12 {
-  .#{$row}-sm-#{$i} {
-    @include row($i);
+  .#{$col}-sm-#{$i} {
+    @include col($i);
   }
 }
 @media (min-width: 751px) {
   @for $i from  1 through 12 {
-    .#{$row}-md-#{$i} {
-      @include row($i);
+    .#{$col}-md-#{$i} {
+      @include col($i);
     }
   }
 }
 @media (min-width: 971px) {
   @for $i from  1 through 12 {
-    .#{$row}-lg-#{$i} {
-      @include row($i);
+    .#{$col}-lg-#{$i} {
+      @include col($i);
     }
   }
 }
 @media (min-width: 1171px) {
   @for $i from  1 through 12 {
-    .#{$row}-xl-#{$i} {
-      @include row($i);
+    .#{$col}-xl-#{$i} {
+      @include col($i);
     }
   }
 }
 @media (max-width: 400px) and (min-width: 400px) {
   @for $i from  1 through 12 {
-    .#{$row}-xs-#{$i} {
-      @include row($i);
+    .#{$col}-xs-#{$i} {
+      @include col($i);
     }
   }
 }
 @for $i from  0 through 12 {
-  .#{$row}-sm-os-#{$i} {
+  .#{$col}-sm-os-#{$i} {
     @include os($i);
   }
 }
 @media (min-width: 751px) {
   @for $i from  0 through 12 {
-    .#{$row}-md-os-#{$i} {
+    .#{$col}-md-os-#{$i} {
       @include os($i);
     }
   }
 }
 @media (min-width: 971px) {
   @for $i from  0 through 12 {
-    .#{$row}-lg-os-#{$i} {
+    .#{$col}-lg-os-#{$i} {
       @include os($i);
     }
   }
 }
 @media (min-width: 1171px) {
   @for $i from  0 through 12 {
-    .#{$row}-xl-os-#{$i} {
+    .#{$col}-xl-os-#{$i} {
       @include os($i);
     }
   }
 }
 @media (max-width: 400px) and (min-width: 400px) {
   @for $i from  0 through 12 {
-    .#{$row}-xs-os-#{$i} {
+    .#{$col}-xs-os-#{$i} {
       @include os($i);
     }
   }

@@ -5,7 +5,8 @@ EXAMPLE
 .r-sm-6
 ------------
 */
-$row: r;
+$col: col;
+$row: row;
 /*
 $container: declare name to use for container
 $container-simple: declare simple name to use for container within container
@@ -16,7 +17,6 @@ EXAMPLE
 ------------
 */
 $container: container;
-$container-simple: c;
 
 $primary: #0081BA;
 $secondary: #008FCE;

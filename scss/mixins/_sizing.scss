@@ -7,7 +7,7 @@
 @mixin justify-content($content) {
   justify-content: $content;
 }
-@mixin row($size) {
+@mixin col($size) {
   width: $size / 12  * 100%;
 }
 @mixin padding($padding...) {
