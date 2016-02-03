@@ -838,9 +838,14 @@ body.open:after {
   .b-container.open .b-brand {
     color: white; }
 
-.header {
-  height: 100px;
-  width: 100%; }
+header.ui.menu .container {
+  justify-content: flex-start; }
+
+header.ui.menu .item img.logo {
+  height: 3em; }
+
+.main.container {
+  margin-top: 7em; }
 
 .hero {
   background-image: url("/img/hero.jpg");
@@ -897,3 +902,7 @@ body.open:after {
   .slack-button button:hover {
     background-color: #eeeeee;
     color: #FF1E46; }
+
+.ui.footer.segment {
+  margin: 5em 0em 0em;
+  padding: 5em 0em; }

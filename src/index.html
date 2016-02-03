@@ -4,34 +4,26 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="//oss.maxcdn.com/semantic-ui/2.1.8/semantic.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <script src="/js/burger.js" type="text/javascript" charset="utf-8" async defer></script>
   <title>Tulsa Web Devs</title>
 </head>
 <body>
-  <header id="header" class="header">
-    <!-- Navigation -->
-    <div class="b-nav">
-      <li><a class="b-link b-link--active" href="#">Home</a></li>
-      <li><a class="b-link" href="#">About</a></li>
-      <li><a class="b-link" href="#">Meetups</a></li>
-      <li><a class="b-link" href="#">Projects</a></li>
-      <li><a class="b-link" href="#">Contact</a></li>
-    </div>
 
-    <!-- Burger-Icon -->
-    <div class="b-container">
-      <div class="b-menu">
-        <div class="b-bun b-bun--top"></div>
-        <div class="b-bun b-bun--mid"></div>
-        <div class="b-bun b-bun--bottom"></div>
-      </div>
-
-      <!-- Burger-Brand -->
-      <a href="#" class="b-brand"><img src="./img/logo.jpg" alt="" width="200"></a>
+  <header class="ui fixed menu">
+    <div class="ui container">
+      <a href="#" class="header item">
+        <img class="logo ui" src="./img/logo.jpg" alt="Tulsa Web Devs">
+      </a>
+      <a class="item" href="#">About</a>
+      <a class="item" href="#">Meetups</a>
+      <a class="item" href="#">Projects</a>
+      <a class="item" href="#">Contact</a>
     </div>
   </header>
-  <div class="clear-both"></div>
+
+  <!-- TODO convert to new  -->
   <div class="container">
     <div class="row col-sm-12 hero">
       <div class="layer"></div>
@@ -74,6 +66,52 @@
         <p><strong>When:</strong> Tue, February 2, 6pm – 9pm</p>
         <p><strong>Where:</strong> 36°N, 36 East Cameron Street Tulsa, OK 74103</p>
         <p><strong>Description:</strong> No agenda. Show up if you have something you want to show off, need to ask a question, or want to answer questions.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui vertical footer segment">
+    <div class="ui center aligned container">
+      <div class="ui stackable divided grid">
+        <div class="three wide column">
+          <h4 class="ui header">Group 1</h4>
+          <div class="ui link list">
+            <a href="#" class="item">Link One</a>
+            <a href="#" class="item">Link Two</a>
+            <a href="#" class="item">Link Three</a>
+            <a href="#" class="item">Link Four</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui header">Group 2</h4>
+          <div class="ui link list">
+            <a href="#" class="item">Link One</a>
+            <a href="#" class="item">Link Two</a>
+            <a href="#" class="item">Link Three</a>
+            <a href="#" class="item">Link Four</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui header">Group 3</h4>
+          <div class="ui link list">
+            <a href="#" class="item">Link One</a>
+            <a href="#" class="item">Link Two</a>
+            <a href="#" class="item">Link Three</a>
+            <a href="#" class="item">Link Four</a>
+          </div>
+        </div>
+        <div class="seven wide column">
+          <h4 class="ui header">Footer Header</h4>
+          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+        </div>
+      </div>
+      <div class="ui section divider"></div>
+      <img src="./img/logo.jpg" class="ui centered medium image">
+      <div class="ui horizontal small divided link list">
+        <a class="item" href="#">Site Map</a>
+        <a class="item" href="#">Contact Us</a>
+        <a class="item" href="#">Terms and Conditions</a>
+        <a class="item" href="#">Privacy Policy</a>
       </div>
     </div>
   </div>
