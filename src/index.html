@@ -1,119 +1,113 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" type="text/css" class="ui" href="//oss.maxcdn.com/semantic-ui/2.1.8/semantic.min.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <script src="/js/burger.js" type="text/javascript" charset="utf-8" async defer></script>
-  <title>Tulsa Web Devs</title>
-</head>
-<body>
-
-  <header class="ui fixed menu">
-    <div class="ui container">
-      <a href="#" class="header item">
-        <img class="logo ui" src="./img/logo.jpg" alt="Tulsa Web Devs">
-      </a>
-      <a class="item" href="#">About</a>
-      <a class="item" href="#">Meetups</a>
-      <a class="item" href="#">Projects</a>
-      <a class="item" href="#">Contact</a>
-    </div>
-  </header>
-
-  <!-- TODO convert to new  -->
-  <div class="container">
-    <div class="row col-sm-12 hero">
-      <div class="layer"></div>
-      <div class="hero-banner flex-center-center">
-        <div class="pad-20">
-          <div class="hero-banner-title col-sm-12 flex-center-center">Tulsa Web Devs</div>
-          <div class="hero-banner-mission-statement col-sm-12 flex-center-center">
-            Our mission is to make Tulsa one of the greatest cities in the world for web developers.
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" class="ui" href="//oss.maxcdn.com/semantic-ui/2.1.8/semantic.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Tulsa Web Devs</title>
+  </head>
+  <body>
+    <header class="ui fixed menu">
+      <div class="ui container">
+        <a href="#" class="header item">
+          <img class="logo ui" src="./img/logo.jpg" alt="Tulsa Web Devs">
+        </a>
+        <a class="item" href="#">About</a>
+        <a class="item" href="#">Meetups</a>
+        <a class="item" href="#">Projects</a>
+        <a class="item" href="#">Contact</a>
+      </div>
+    </header>
+    <div class="ui grid">
+      <div class="one column row hero flex-center-center">
+       <div class="layer"></div>
+        <div class="hero-banner column pad-20">
+          <div class="hero-banner-title center aligned">Tulsa Web Devs</div>
+          <div class="hero-banner-mission-statement center aligned">
+           Our mission is to make Tulsa one of the greatest cities in the world for web developers.
           </div>
-          <div class="hero-banner-cta text-align-center">
+          <div class="hero-banner-cta center aligned segment">
             <button type="">View Next Meetup</button>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="row col-sm-12 slack pad-20">
-      <div class="col-sm-6 col-xs-12 slack-info  flex-center-center text-align-center">
+    <div class="ui grid">
+      <div class="two column row slack pad-20">
+       <div class="column slack-info flex-center-center">
         <img src="./img/slack.svg" width="60" alt="">
-        <span>Join us on the Techlahoma Slack!</span>
+        <span>Join Us On Slack</span>
       </div>
-      <div class="col-sm-6 col-xs-12 slack-button flex-center-center text-align-center">
+      <div class="column slack-button flex-center-center">
         <button type="">Signup</button>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="row col-sm-12 meetup pad-20">
-      <div class="col-md-5 col-sm-12 col-xs-12 meetup-card">
-        <span>Next Web Dev Meetup</span>
-        <hr>
-        <p><strong>When:</strong> Mon, February 15, 6pm – 8pm</p>
-        <p><strong>Where:</strong> 36°N, 36 East Cameron Street Tulsa, OK 74103</p>
-        <p><strong>Description:</strong> <a href="http://www.facebook.com/group.php?gid=199713962534">Facebook Page</a></p>
-      </div>
-      <div class="col-md-5 col-sm-12 col-xs-12 meetup-card">
-        <span>Next Hack Night</span>
-        <hr>
-        <p><strong>When:</strong> Tue, February 2, 6pm – 9pm</p>
-        <p><strong>Where:</strong> 36°N, 36 East Cameron Street Tulsa, OK 74103</p>
-        <p><strong>Description:</strong> No agenda. Show up if you have something you want to show off, need to ask a question, or want to answer questions.</p>
+    </div>
+    <div class="ui grid">
+      <div class="two column row meetup pad-20">
+        <div class="column wide meetup-card">
+          <span>Next Web Dev Meetup</span>
+          <hr>
+          <p><b>When:</b> Mon, February 15, 6pm – 8pm</p>
+          <p><b>Where:</b> 36°N, 36 East Cameron Street Tulsa, OK 74103</p>
+          <p><b>Description:</b> <a href="http://www.facebook.com/group.php?gid=199713962534">Facebook Page</a></p>
+        </div>
+        <div class="column wide meetup-card">
+          <span>Next Hack Night</span>
+          <hr>
+          <p><b>When:</b> Tue, February 2, 6pm – 9pm</p>
+          <p><b>Where:</b> 36°N, 36 East Cameron Street Tulsa, OK 74103</p>
+          <p><b>Description:</b> No agenda. Show up if you have something you want to show off, need to ask a question, or want to answer questions.</p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="ui vertical footer segment">
-    <div class="ui center aligned container">
-      <div class="ui stackable divided grid">
-        <div class="three wide column">
-          <h4 class="ui header">Group 1</h4>
-          <div class="ui link list">
-            <a href="#" class="item">Link One</a>
-            <a href="#" class="item">Link Two</a>
-            <a href="#" class="item">Link Three</a>
-            <a href="#" class="item">Link Four</a>
+    <div class="ui vertical footer segment">
+      <div class="ui center aligned container">
+        <div class="ui stackable divided grid">
+          <div class="three wide column">
+            <h4 class="ui header">Group 1</h4>
+            <div class="ui link list">
+              <a href="#" class="item">Link One</a>
+              <a href="#" class="item">Link Two</a>
+              <a href="#" class="item">Link Three</a>
+              <a href="#" class="item">Link Four</a>
+            </div>
+          </div>
+          <div class="three wide column">
+            <h4 class="ui header">Group 2</h4>
+            <div class="ui link list">
+              <a href="#" class="item">Link One</a>
+              <a href="#" class="item">Link Two</a>
+              <a href="#" class="item">Link Three</a>
+              <a href="#" class="item">Link Four</a>
+            </div>
+          </div>
+          <div class="three wide column">
+            <h4 class="ui header">Group 3</h4>
+            <div class="ui link list">
+              <a href="#" class="item">Link One</a>
+              <a href="#" class="item">Link Two</a>
+              <a href="#" class="item">Link Three</a>
+              <a href="#" class="item">Link Four</a>
+            </div>
+          </div>
+          <div class="seven wide column">
+            <h4 class="ui header">Footer Header</h4>
+            <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
           </div>
         </div>
-        <div class="three wide column">
-          <h4 class="ui header">Group 2</h4>
-          <div class="ui link list">
-            <a href="#" class="item">Link One</a>
-            <a href="#" class="item">Link Two</a>
-            <a href="#" class="item">Link Three</a>
-            <a href="#" class="item">Link Four</a>
-          </div>
+        <div class="ui section divider"></div>
+        <img src="./img/logo.jpg" class="ui centered medium image">
+        <div class="ui horizontal small divided link list">
+          <a class="item" href="#">Site Map</a>
+          <a class="item" href="#">Contact Us</a>
+          <a class="item" href="#">Terms and Conditions</a>
+          <a class="item" href="#">Privacy Policy</a>
         </div>
-        <div class="three wide column">
-          <h4 class="ui header">Group 3</h4>
-          <div class="ui link list">
-            <a href="#" class="item">Link One</a>
-            <a href="#" class="item">Link Two</a>
-            <a href="#" class="item">Link Three</a>
-            <a href="#" class="item">Link Four</a>
-          </div>
-        </div>
-        <div class="seven wide column">
-          <h4 class="ui header">Footer Header</h4>
-          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
-        </div>
-      </div>
-      <div class="ui section divider"></div>
-      <img src="./img/logo.jpg" class="ui centered medium image">
-      <div class="ui horizontal small divided link list">
-        <a class="item" href="#">Site Map</a>
-        <a class="item" href="#">Contact Us</a>
-        <a class="item" href="#">Terms and Conditions</a>
-        <a class="item" href="#">Privacy Policy</a>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
