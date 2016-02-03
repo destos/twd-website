@@ -40,13 +40,16 @@ ___
 ## Examples Classes To Use
 
 ##### main container classes
-.container or .c
+.container
 
-##### row classes
-| min    | max     |  offset-min  | offset-max|
-|--------|---------|--------------|-----------|
-|.r-xs-1 | .r-xs-12| .r-xs-os-0   |.r-xs-os-12|
-|.r-sm-1 | .r-sm-12| .r-sm-os-0   |.r-sm-os-12|
-|.r-md-1 | .r-md-12| .r-md-os-0   |.r-md-os-12|
-|.r-lg-1 | .r-lg-12| .r-lg-os-0   |.r-lg-os-12|
-|.r-xl-1 | .r-xl-12| .r-xl-os-0   |.r-xl-os-12|
+##### main row class
+.row
+
+##### column classes
+| min      | max       |  offset-min    | offset-max  |
+|----------|-----------|----------------|-------------|
+|.col-xs-1 | .col-xs-12| .col-xs-os-0   |.col-xs-os-12|
+|.col-sm-1 | .col-sm-12| .col-sm-os-0   |.col-sm-os-12|
+|.col-md-1 | .col-md-12| .col-md-os-0   |.col-md-os-12|
+|.col-lg-1 | .col-lg-12| .col-lg-os-0   |.col-lg-os-12|
+|.col-xl-1 | .col-xl-12| .col-xl-os-0   |.col-xl-os-12|
