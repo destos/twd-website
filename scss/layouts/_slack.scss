@@ -5,18 +5,15 @@
 }
 
 .slack-info {
+  .slack-icon {
+    margin-right: 13px;
+  }
   span {
     font-size: 25px;
     line-height: 1.2;
     position: relative;
     padding: 0 5px;
     align-self: center;
-
-  }
-}
-
-.slack-button {
-  button {
-    @include color(#eeeeee, $primary2)
+    margin-left: 12px;
   }
 }

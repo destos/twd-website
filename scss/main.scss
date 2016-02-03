@@ -1,10 +1,6 @@
 // Variables to be used throughout the projects
 @import './variables/vars';
 
-// Resets for all default html properties
-@import './resets/normalize';
-@import './resets/custom';
-
 // Mixins used throughout the projects
 @import './mixins/sizing';
 @import './mixins/style';
@@ -13,7 +9,6 @@
 // Helpers used for sizing, positioning and such
 @import './helpers/sizing';
 @import './helpers/position';
-@import './helpers/button';
 @import './helpers/theme';
 
 // Layout partials for different components of the site
