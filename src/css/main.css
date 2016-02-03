@@ -264,147 +264,107 @@ a {
 @media (min-width: 751px) {
   .col-md-1 {
     width: 8.33333%; }
-
   .col-md-2 {
     width: 16.66667%; }
-
   .col-md-3 {
     width: 25%; }
-
   .col-md-4 {
     width: 33.33333%; }
-
   .col-md-5 {
     width: 41.66667%; }
-
   .col-md-6 {
     width: 50%; }
-
   .col-md-7 {
     width: 58.33333%; }
-
   .col-md-8 {
     width: 66.66667%; }
-
   .col-md-9 {
     width: 75%; }
-
   .col-md-10 {
     width: 83.33333%; }
-
   .col-md-11 {
     width: 91.66667%; }
-
   .col-md-12 {
     width: 100%; } }
+
 @media (min-width: 971px) {
   .col-lg-1 {
     width: 8.33333%; }
-
   .col-lg-2 {
     width: 16.66667%; }
-
   .col-lg-3 {
     width: 25%; }
-
   .col-lg-4 {
     width: 33.33333%; }
-
   .col-lg-5 {
     width: 41.66667%; }
-
   .col-lg-6 {
     width: 50%; }
-
   .col-lg-7 {
     width: 58.33333%; }
-
   .col-lg-8 {
     width: 66.66667%; }
-
   .col-lg-9 {
     width: 75%; }
-
   .col-lg-10 {
     width: 83.33333%; }
-
   .col-lg-11 {
     width: 91.66667%; }
-
   .col-lg-12 {
     width: 100%; } }
+
 @media (min-width: 1171px) {
   .col-xl-1 {
     width: 8.33333%; }
-
   .col-xl-2 {
     width: 16.66667%; }
-
   .col-xl-3 {
     width: 25%; }
-
   .col-xl-4 {
     width: 33.33333%; }
-
   .col-xl-5 {
     width: 41.66667%; }
-
   .col-xl-6 {
     width: 50%; }
-
   .col-xl-7 {
     width: 58.33333%; }
-
   .col-xl-8 {
     width: 66.66667%; }
-
   .col-xl-9 {
     width: 75%; }
-
   .col-xl-10 {
     width: 83.33333%; }
-
   .col-xl-11 {
     width: 91.66667%; }
-
   .col-xl-12 {
     width: 100%; } }
+
 @media (max-width: 400px) and (min-width: 400px) {
   .col-xs-1 {
     width: 8.33333%; }
-
   .col-xs-2 {
     width: 16.66667%; }
-
   .col-xs-3 {
     width: 25%; }
-
   .col-xs-4 {
     width: 33.33333%; }
-
   .col-xs-5 {
     width: 41.66667%; }
-
   .col-xs-6 {
     width: 50%; }
-
   .col-xs-7 {
     width: 58.33333%; }
-
   .col-xs-8 {
     width: 66.66667%; }
-
   .col-xs-9 {
     width: 75%; }
-
   .col-xs-10 {
     width: 83.33333%; }
-
   .col-xs-11 {
     width: 91.66667%; }
-
   .col-xs-12 {
     width: 100%; } }
+
 .col-sm-os-0 {
   margin-left: 0%; }
 
@@ -447,159 +407,115 @@ a {
 @media (min-width: 751px) {
   .col-md-os-0 {
     margin-left: 0%; }
-
   .col-md-os-1 {
     margin-left: 8.33333%; }
-
   .col-md-os-2 {
     margin-left: 16.66667%; }
-
   .col-md-os-3 {
     margin-left: 25%; }
-
   .col-md-os-4 {
     margin-left: 33.33333%; }
-
   .col-md-os-5 {
     margin-left: 41.66667%; }
-
   .col-md-os-6 {
     margin-left: 50%; }
-
   .col-md-os-7 {
     margin-left: 58.33333%; }
-
   .col-md-os-8 {
     margin-left: 66.66667%; }
-
   .col-md-os-9 {
     margin-left: 75%; }
-
   .col-md-os-10 {
     margin-left: 83.33333%; }
-
   .col-md-os-11 {
     margin-left: 91.66667%; }
-
   .col-md-os-12 {
     margin-left: 100%; } }
+
 @media (min-width: 971px) {
   .col-lg-os-0 {
     margin-left: 0%; }
-
   .col-lg-os-1 {
     margin-left: 8.33333%; }
-
   .col-lg-os-2 {
     margin-left: 16.66667%; }
-
   .col-lg-os-3 {
     margin-left: 25%; }
-
   .col-lg-os-4 {
     margin-left: 33.33333%; }
-
   .col-lg-os-5 {
     margin-left: 41.66667%; }
-
   .col-lg-os-6 {
     margin-left: 50%; }
-
   .col-lg-os-7 {
     margin-left: 58.33333%; }
-
   .col-lg-os-8 {
     margin-left: 66.66667%; }
-
   .col-lg-os-9 {
     margin-left: 75%; }
-
   .col-lg-os-10 {
     margin-left: 83.33333%; }
-
   .col-lg-os-11 {
     margin-left: 91.66667%; }
-
   .col-lg-os-12 {
     margin-left: 100%; } }
+
 @media (min-width: 1171px) {
   .col-xl-os-0 {
     margin-left: 0%; }
-
   .col-xl-os-1 {
     margin-left: 8.33333%; }
-
   .col-xl-os-2 {
     margin-left: 16.66667%; }
-
   .col-xl-os-3 {
     margin-left: 25%; }
-
   .col-xl-os-4 {
     margin-left: 33.33333%; }
-
   .col-xl-os-5 {
     margin-left: 41.66667%; }
-
   .col-xl-os-6 {
     margin-left: 50%; }
-
   .col-xl-os-7 {
     margin-left: 58.33333%; }
-
   .col-xl-os-8 {
     margin-left: 66.66667%; }
-
   .col-xl-os-9 {
     margin-left: 75%; }
-
   .col-xl-os-10 {
     margin-left: 83.33333%; }
-
   .col-xl-os-11 {
     margin-left: 91.66667%; }
-
   .col-xl-os-12 {
     margin-left: 100%; } }
+
 @media (max-width: 400px) and (min-width: 400px) {
   .col-xs-os-0 {
     margin-left: 0%; }
-
   .col-xs-os-1 {
     margin-left: 8.33333%; }
-
   .col-xs-os-2 {
     margin-left: 16.66667%; }
-
   .col-xs-os-3 {
     margin-left: 25%; }
-
   .col-xs-os-4 {
     margin-left: 33.33333%; }
-
   .col-xs-os-5 {
     margin-left: 41.66667%; }
-
   .col-xs-os-6 {
     margin-left: 50%; }
-
   .col-xs-os-7 {
     margin-left: 58.33333%; }
-
   .col-xs-os-8 {
     margin-left: 66.66667%; }
-
   .col-xs-os-9 {
     margin-left: 75%; }
-
   .col-xs-os-10 {
     margin-left: 83.33333%; }
-
   .col-xs-os-11 {
     margin-left: 91.66667%; }
-
   .col-xs-os-12 {
     margin-left: 100%; } }
+
 .no-padding {
   padding: 0 !important; }
 
@@ -729,21 +645,19 @@ a {
 @media (max-width: 750px) {
   .text-left-small {
     text-align: left; }
-
   .text-center-small {
     text-align: center; }
-
   .text-right-small {
     text-align: right; } }
+
 @media (max-width: 750px) {
   .flex-start-small {
     justify-content: flex-start; }
-
   .center-small {
     justify-content: center; }
-
   .flex-end-small {
     justify-content: flex-end; } }
+
 .clear-both {
   clear: both; }
 
@@ -770,12 +684,14 @@ hr {
     visibility: visible; }
   100% {
     transform: translate3d(0, 0, 0); } }
+
 @keyframes slideOutLeft {
   0% {
     transform: translate3d(0, 0, 0); }
   100% {
     transform: translate3d(-250px, 0, 0);
     visibility: hidden; } }
+
 * {
   box-sizing: border-box; }
 
@@ -793,8 +709,10 @@ body:after {
   visibility: hidden;
   transition: all 0.4s ease;
   width: 100%; }
+
 body.open {
   overflow: hidden; }
+
 body.open:after {
   opacity: 1;
   visibility: visible; }
@@ -964,13 +882,14 @@ body.open:after {
 
 .slack {
   background-color: #F4D03F;
-  color: #FF1E46;
+  color: #614f06;
   position: relative; }
 
 .slack-info span {
   font-size: 25px;
   position: relative;
-  padding: 0 5px; }
+  padding: 0 5px;
+  margin-left: 10px; }
 
 .slack-button button {
   color: #eeeeee;
